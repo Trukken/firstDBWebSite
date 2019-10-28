@@ -8,7 +8,7 @@ if (isset($_GET['movieid'])) {
     $movieId = $_GET['movieid'];
 
     var_dump($movieId);
-    require_once '../db.php';
+    require_once './db.php';
 
     $db = 'moviedb';
     $connect = mysqli_connect(DB_SERVER, DB_USER, DB_PASSWORD, $db);

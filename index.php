@@ -27,7 +27,7 @@
 
     <div>
         <?php
-        require_once '../db.php';
+        require_once './db.php';
         $db = "moviedb";
 
         $connect = mysqli_connect(DB_SERVER, DB_USER, DB_PASSWORD, $db);

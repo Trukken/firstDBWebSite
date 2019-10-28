@@ -29,7 +29,7 @@
 
 
     <?php
-    require_once '../db.php';
+    require_once './db.php';
 
     $db = 'moviedb';
 

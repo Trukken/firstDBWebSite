@@ -19,7 +19,7 @@
 
     <?php
     if (isset($_GET['director_id'])) {
-        require_once '../db.php';
+        require_once './db.php';
         $db = 'moviedb';
         $directorid = $_GET['director_id'];
         $connect = mysqli_connect(DB_SERVER, DB_USER, DB_PASSWORD, $db);
